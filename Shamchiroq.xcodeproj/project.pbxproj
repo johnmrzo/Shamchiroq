@@ -11,7 +11,7 @@
 		EC31BC382B468E8C0026774D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC372B468E8C0026774D /* ContentView.swift */; };
 		EC31BC3A2B468E8E0026774D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC392B468E8E0026774D /* Assets.xcassets */; };
 		EC31BC3D2B468E8E0026774D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3C2B468E8E0026774D /* Preview Assets.xcassets */; };
-		EC31BC562B4695C80026774D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC552B4695C80026774D /* HomeView.swift */; };
+		EC31BC562B4695C80026774D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC552B4695C80026774D /* MainView.swift */; };
 		EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC572B4696770026774D /* TopNavigationBarView.swift */; };
 		EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */; };
 		EC31BC5C2B4698920026774D /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */; };
@@ -28,6 +28,8 @@
 		EC31BC962B4973330026774D /* AbhayaLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC902B4973320026774D /* AbhayaLibre-Regular.ttf */; };
 		EC31BC972B4973330026774D /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC912B4973320026774D /* AbhayaLibre-Medium.ttf */; };
 		EC31BC982B4973330026774D /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */; };
+		EC31BC9B2B499B760026774D /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC9A2B499B760026774D /* BookView.swift */; };
+		EC31BC9D2B499BA80026774D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC9C2B499BA80026774D /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +38,7 @@
 		EC31BC372B468E8C0026774D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC31BC392B468E8E0026774D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC31BC3C2B468E8E0026774D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC31BC552B4695C80026774D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC31BC552B4695C80026774D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EC31BC572B4696770026774D /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
 		EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationItemView.swift; sourceTree = "<group>"; };
 		EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		EC31BC912B4973320026774D /* AbhayaLibre-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Medium.ttf"; sourceTree = "<group>"; };
 		EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-ExtraBold.ttf"; sourceTree = "<group>"; };
 		EC31BC992B4973820026774D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC31BC9A2B499B760026774D /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		EC31BC9C2B499BA80026774D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				EC31BC692B46B2280026774D /* NavigationButtonsState.swift */,
+				EC31BC9C2B499BA80026774D /* SampleData.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -206,8 +211,9 @@
 		EC31BC532B46957F0026774D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EC31BC552B4695C80026774D /* HomeView.swift */,
+				EC31BC552B4695C80026774D /* MainView.swift */,
 				EC31BC6B2B46DD0B0026774D /* AsosiyView.swift */,
+				EC31BC9A2B499B760026774D /* BookView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -401,13 +407,15 @@
 				EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */,
 				EC31BC752B470EEC0026774D /* Kitoblarim.swift in Sources */,
 				EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */,
+				EC31BC9B2B499B760026774D /* BookView.swift in Sources */,
 				EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */,
-				EC31BC562B4695C80026774D /* HomeView.swift in Sources */,
+				EC31BC562B4695C80026774D /* MainView.swift in Sources */,
 				EC31BC382B468E8C0026774D /* ContentView.swift in Sources */,
 				EC31BC732B470EC10026774D /* SearchView.swift in Sources */,
 				EC31BC6C2B46DD0B0026774D /* AsosiyView.swift in Sources */,
 				EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */,
 				EC31BC8B2B4971330026774D /* BookItemView.swift in Sources */,
+				EC31BC9D2B499BA80026774D /* SampleData.swift in Sources */,
 				EC31BC362B468E8C0026774D /* ShamchiroqApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

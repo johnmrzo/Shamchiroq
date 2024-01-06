@@ -55,7 +55,7 @@ struct BookItemView: View {
                     }
                     .padding(5)
                 }
-                .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.green))
+                .background(RoundedRectangle(cornerRadius: 5).foregroundColor(.green))
                 
                 Spacer()
                 

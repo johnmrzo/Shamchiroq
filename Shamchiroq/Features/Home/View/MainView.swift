@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct MainView: View {
     @EnvironmentObject var navBtnState: NavigationButtonsState
     
     var body: some View {
@@ -42,5 +42,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    MainView()
 }
