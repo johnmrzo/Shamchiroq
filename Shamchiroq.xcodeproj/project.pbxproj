@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC31BC362B468E8C0026774D /* ShamchiroqApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC352B468E8C0026774D /* ShamchiroqApp.swift */; };
+		EC31BC382B468E8C0026774D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC372B468E8C0026774D /* ContentView.swift */; };
+		EC31BC3A2B468E8E0026774D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC392B468E8E0026774D /* Assets.xcassets */; };
+		EC31BC3D2B468E8E0026774D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3C2B468E8E0026774D /* Preview Assets.xcassets */; };
+		EC31BC562B4695C80026774D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC552B4695C80026774D /* HomeView.swift */; };
+		EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC572B4696770026774D /* TopNavigationBarView.swift */; };
+		EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */; };
+		EC31BC5C2B4698920026774D /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */; };
+		EC31BC5E2B469CE70026774D /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5D2B469CE70026774D /* NavigationButton.swift */; };
+		EC31BC602B469D450026774D /* NavigationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5F2B469D450026774D /* NavigationButtons.swift */; };
+		EC31BC642B46AF0E0026774D /* MashxurlarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC632B46AF0E0026774D /* MashxurlarView.swift */; };
+		EC31BC662B46AF460026774D /* CelebrityItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC652B46AF460026774D /* CelebrityItemView.swift */; };
+		EC31BC682B46AFB10026774D /* Celebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC672B46AFB10026774D /* Celebrity.swift */; };
+		EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC692B46B2280026774D /* NavigationButtonsState.swift */; };
+		EC31BC6C2B46DD0B0026774D /* TopKitoblarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */; };
+		EC31BC6F2B46DDFC0026774D /* TopKitobItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */; };
+		EC31BC712B46DF990026774D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC702B46DF990026774D /* Book.swift */; };
+		EC31BC732B470EC10026774D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC722B470EC10026774D /* SearchView.swift */; };
+		EC31BC752B470EEC0026774D /* WriteBlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC742B470EEC0026774D /* WriteBlogView.swift */; };
+		EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC762B470EFB0026774D /* ProfileView.swift */; };
+		EC31BC792B470F4C0026774D /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC782B470F4C0026774D /* ArticlesView.swift */; };
+		EC31BC872B472A870026774D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC862B472A870026774D /* Article.swift */; };
+		EC31BC892B472AC60026774D /* ArtcileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC882B472AC60026774D /* ArtcileItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC31BC322B468E8C0026774D /* Shamchiroq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shamchiroq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC31BC352B468E8C0026774D /* ShamchiroqApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamchiroqApp.swift; sourceTree = "<group>"; };
+		EC31BC372B468E8C0026774D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC31BC392B468E8E0026774D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC31BC3C2B468E8E0026774D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC31BC552B4695C80026774D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC31BC572B4696770026774D /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
+		EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationItemView.swift; sourceTree = "<group>"; };
+		EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
+		EC31BC5D2B469CE70026774D /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		EC31BC5F2B469D450026774D /* NavigationButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtons.swift; sourceTree = "<group>"; };
+		EC31BC632B46AF0E0026774D /* MashxurlarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashxurlarView.swift; sourceTree = "<group>"; };
+		EC31BC652B46AF460026774D /* CelebrityItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrityItemView.swift; sourceTree = "<group>"; };
+		EC31BC672B46AFB10026774D /* Celebrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celebrity.swift; sourceTree = "<group>"; };
+		EC31BC692B46B2280026774D /* NavigationButtonsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsState.swift; sourceTree = "<group>"; };
+		EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKitoblarView.swift; sourceTree = "<group>"; };
+		EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKitobItemView.swift; sourceTree = "<group>"; };
+		EC31BC702B46DF990026774D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EC31BC722B470EC10026774D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EC31BC742B470EEC0026774D /* WriteBlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBlogView.swift; sourceTree = "<group>"; };
+		EC31BC762B470EFB0026774D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EC31BC782B470F4C0026774D /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		EC31BC862B472A870026774D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EC31BC882B472AC60026774D /* ArtcileItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtcileItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC31BC2F2B468E8C0026774D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC31BC292B468E8C0026774D = {
+			isa = PBXGroup;
+			children = (
+				EC31BC342B468E8C0026774D /* Shamchiroq */,
+				EC31BC332B468E8C0026774D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC31BC332B468E8C0026774D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC322B468E8C0026774D /* Shamchiroq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC31BC342B468E8C0026774D /* Shamchiroq */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC462B468E9A0026774D /* App */,
+				EC31BC452B468E980026774D /* Features */,
+				EC31BC442B468E960026774D /* Root */,
+				EC31BC392B468E8E0026774D /* Assets.xcassets */,
+				EC31BC3B2B468E8E0026774D /* Preview Content */,
+			);
+			path = Shamchiroq;
+			sourceTree = "<group>";
+		};
+		EC31BC3B2B468E8E0026774D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC3C2B468E8E0026774D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC31BC442B468E960026774D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC372B468E8C0026774D /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		EC31BC452B468E980026774D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC4C2B4694540026774D /* Home */,
+				EC31BC4E2B4694610026774D /* Onboarding */,
+				EC31BC4F2B4695110026774D /* Post */,
+				EC31BC502B4695180026774D /* Profile */,
+				EC31BC4B2B46944B0026774D /* Search */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EC31BC462B468E9A0026774D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC352B468E8C0026774D /* ShamchiroqApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC31BC4B2B46944B0026774D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC7D2B472A000026774D /* Components */,
+				EC31BC7C2B4729FE0026774D /* Model */,
+				EC31BC7B2B4729FD0026774D /* View */,
+				EC31BC7A2B4729F70026774D /* ViewModel */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		EC31BC4C2B4694540026774D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC522B46957D0026774D /* Components */,
+				EC31BC542B4695800026774D /* Model */,
+				EC31BC532B46957F0026774D /* View */,
+				EC31BC512B46957B0026774D /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC31BC4E2B4694610026774D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EC31BC4F2B4695110026774D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC852B472A4B0026774D /* Components */,
+				EC31BC842B472A4A0026774D /* Model */,
+				EC31BC832B472A490026774D /* View */,
+				EC31BC822B472A480026774D /* ViewModel */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		EC31BC502B4695180026774D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC812B472A270026774D /* Components */,
+				EC31BC802B472A260026774D /* Model */,
+				EC31BC7F2B472A240026774D /* View */,
+				EC31BC7E2B472A230026774D /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EC31BC512B46957B0026774D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC692B46B2280026774D /* NavigationButtonsState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC31BC522B46957D0026774D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC572B4696770026774D /* TopNavigationBarView.swift */,
+				EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */,
+				EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */,
+				EC31BC5D2B469CE70026774D /* NavigationButton.swift */,
+				EC31BC5F2B469D450026774D /* NavigationButtons.swift */,
+				EC31BC652B46AF460026774D /* CelebrityItemView.swift */,
+				EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */,
+				EC31BC882B472AC60026774D /* ArtcileItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC31BC532B46957F0026774D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC552B4695C80026774D /* HomeView.swift */,
+				EC31BC632B46AF0E0026774D /* MashxurlarView.swift */,
+				EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */,
+				EC31BC782B470F4C0026774D /* ArticlesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC31BC542B4695800026774D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC672B46AFB10026774D /* Celebrity.swift */,
+				EC31BC702B46DF990026774D /* Book.swift */,
+				EC31BC862B472A870026774D /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC31BC7A2B4729F70026774D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC31BC7B2B4729FD0026774D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC722B470EC10026774D /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC31BC7C2B4729FE0026774D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC31BC7D2B472A000026774D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC31BC7E2B472A230026774D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC31BC7F2B472A240026774D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC762B470EFB0026774D /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC31BC802B472A260026774D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC31BC812B472A270026774D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC31BC822B472A480026774D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC31BC832B472A490026774D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC742B470EEC0026774D /* WriteBlogView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC31BC842B472A4A0026774D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC31BC852B472A4B0026774D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC31BC312B468E8C0026774D /* Shamchiroq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC31BC402B468E8E0026774D /* Build configuration list for PBXNativeTarget "Shamchiroq" */;
+			buildPhases = (
+				EC31BC2E2B468E8C0026774D /* Sources */,
+				EC31BC2F2B468E8C0026774D /* Frameworks */,
+				EC31BC302B468E8C0026774D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shamchiroq;
+			productName = Shamchiroq;
+			productReference = EC31BC322B468E8C0026774D /* Shamchiroq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC31BC2A2B468E8C0026774D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC31BC312B468E8C0026774D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EC31BC2D2B468E8C0026774D /* Build configuration list for PBXProject "Shamchiroq" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC31BC292B468E8C0026774D;
+			productRefGroup = EC31BC332B468E8C0026774D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC31BC312B468E8C0026774D /* Shamchiroq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC31BC302B468E8C0026774D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31BC3D2B468E8E0026774D /* Preview Assets.xcassets in Resources */,
+				EC31BC3A2B468E8E0026774D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC31BC2E2B468E8C0026774D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31BC712B46DF990026774D /* Book.swift in Sources */,
+				EC31BC5E2B469CE70026774D /* NavigationButton.swift in Sources */,
+				EC31BC602B469D450026774D /* NavigationButtons.swift in Sources */,
+				EC31BC5C2B4698920026774D /* BottomNavigationBar.swift in Sources */,
+				EC31BC872B472A870026774D /* Article.swift in Sources */,
+				EC31BC642B46AF0E0026774D /* MashxurlarView.swift in Sources */,
+				EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */,
+				EC31BC6F2B46DDFC0026774D /* TopKitobItemView.swift in Sources */,
+				EC31BC662B46AF460026774D /* CelebrityItemView.swift in Sources */,
+				EC31BC752B470EEC0026774D /* WriteBlogView.swift in Sources */,
+				EC31BC682B46AFB10026774D /* Celebrity.swift in Sources */,
+				EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */,
+				EC31BC892B472AC60026774D /* ArtcileItemView.swift in Sources */,
+				EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */,
+				EC31BC562B4695C80026774D /* HomeView.swift in Sources */,
+				EC31BC382B468E8C0026774D /* ContentView.swift in Sources */,
+				EC31BC792B470F4C0026774D /* ArticlesView.swift in Sources */,
+				EC31BC732B470EC10026774D /* SearchView.swift in Sources */,
+				EC31BC6C2B46DD0B0026774D /* TopKitoblarView.swift in Sources */,
+				EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */,
+				EC31BC362B468E8C0026774D /* ShamchiroqApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC31BC3E2B468E8E0026774D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC31BC3F2B468E8E0026774D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC31BC412B468E8E0026774D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shamchiroq/Preview Content\"";
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.Shamchiroq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC31BC422B468E8E0026774D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shamchiroq/Preview Content\"";
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.Shamchiroq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC31BC2D2B468E8C0026774D /* Build configuration list for PBXProject "Shamchiroq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31BC3E2B468E8E0026774D /* Debug */,
+				EC31BC3F2B468E8E0026774D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC31BC402B468E8E0026774D /* Build configuration list for PBXNativeTarget "Shamchiroq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31BC412B468E8E0026774D /* Debug */,
+				EC31BC422B468E8E0026774D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC31BC2A2B468E8C0026774D /* Project object */;
+}
