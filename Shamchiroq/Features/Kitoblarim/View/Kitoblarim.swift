@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct WriteBlogView: View {
+struct Kitoblarim: View {
     var body: some View {
-        Text("WriteBlogView")
+        Text("Kitoblarim")
     }
 }
 
 #Preview {
-    WriteBlogView()
+    Kitoblarim()
 }

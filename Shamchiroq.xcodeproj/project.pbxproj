@@ -15,21 +15,19 @@
 		EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC572B4696770026774D /* TopNavigationBarView.swift */; };
 		EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */; };
 		EC31BC5C2B4698920026774D /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */; };
-		EC31BC5E2B469CE70026774D /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5D2B469CE70026774D /* NavigationButton.swift */; };
-		EC31BC602B469D450026774D /* NavigationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC5F2B469D450026774D /* NavigationButtons.swift */; };
-		EC31BC642B46AF0E0026774D /* MashxurlarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC632B46AF0E0026774D /* MashxurlarView.swift */; };
-		EC31BC662B46AF460026774D /* CelebrityItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC652B46AF460026774D /* CelebrityItemView.swift */; };
-		EC31BC682B46AFB10026774D /* Celebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC672B46AFB10026774D /* Celebrity.swift */; };
 		EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC692B46B2280026774D /* NavigationButtonsState.swift */; };
-		EC31BC6C2B46DD0B0026774D /* TopKitoblarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */; };
-		EC31BC6F2B46DDFC0026774D /* TopKitobItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */; };
+		EC31BC6C2B46DD0B0026774D /* AsosiyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC6B2B46DD0B0026774D /* AsosiyView.swift */; };
 		EC31BC712B46DF990026774D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC702B46DF990026774D /* Book.swift */; };
 		EC31BC732B470EC10026774D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC722B470EC10026774D /* SearchView.swift */; };
-		EC31BC752B470EEC0026774D /* WriteBlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC742B470EEC0026774D /* WriteBlogView.swift */; };
+		EC31BC752B470EEC0026774D /* Kitoblarim.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC742B470EEC0026774D /* Kitoblarim.swift */; };
 		EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC762B470EFB0026774D /* ProfileView.swift */; };
-		EC31BC792B470F4C0026774D /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC782B470F4C0026774D /* ArticlesView.swift */; };
-		EC31BC872B472A870026774D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC862B472A870026774D /* Article.swift */; };
-		EC31BC892B472AC60026774D /* ArtcileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC882B472AC60026774D /* ArtcileItemView.swift */; };
+		EC31BC8B2B4971330026774D /* BookItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC8A2B4971330026774D /* BookItemView.swift */; };
+		EC31BC932B4973320026774D /* AbhayaLibre-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC8D2B4973320026774D /* AbhayaLibre-SemiBold.ttf */; };
+		EC31BC942B4973320026774D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC8E2B4973320026774D /* OFL.txt */; };
+		EC31BC952B4973330026774D /* AbhayaLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC8F2B4973320026774D /* AbhayaLibre-Bold.ttf */; };
+		EC31BC962B4973330026774D /* AbhayaLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC902B4973320026774D /* AbhayaLibre-Regular.ttf */; };
+		EC31BC972B4973330026774D /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC912B4973320026774D /* AbhayaLibre-Medium.ttf */; };
+		EC31BC982B4973330026774D /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,21 +40,20 @@
 		EC31BC572B4696770026774D /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
 		EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationItemView.swift; sourceTree = "<group>"; };
 		EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
-		EC31BC5D2B469CE70026774D /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
-		EC31BC5F2B469D450026774D /* NavigationButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtons.swift; sourceTree = "<group>"; };
-		EC31BC632B46AF0E0026774D /* MashxurlarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashxurlarView.swift; sourceTree = "<group>"; };
-		EC31BC652B46AF460026774D /* CelebrityItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrityItemView.swift; sourceTree = "<group>"; };
-		EC31BC672B46AFB10026774D /* Celebrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celebrity.swift; sourceTree = "<group>"; };
 		EC31BC692B46B2280026774D /* NavigationButtonsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsState.swift; sourceTree = "<group>"; };
-		EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKitoblarView.swift; sourceTree = "<group>"; };
-		EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKitobItemView.swift; sourceTree = "<group>"; };
+		EC31BC6B2B46DD0B0026774D /* AsosiyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosiyView.swift; sourceTree = "<group>"; };
 		EC31BC702B46DF990026774D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		EC31BC722B470EC10026774D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		EC31BC742B470EEC0026774D /* WriteBlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBlogView.swift; sourceTree = "<group>"; };
+		EC31BC742B470EEC0026774D /* Kitoblarim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitoblarim.swift; sourceTree = "<group>"; };
 		EC31BC762B470EFB0026774D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		EC31BC782B470F4C0026774D /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
-		EC31BC862B472A870026774D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		EC31BC882B472AC60026774D /* ArtcileItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtcileItemView.swift; sourceTree = "<group>"; };
+		EC31BC8A2B4971330026774D /* BookItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemView.swift; sourceTree = "<group>"; };
+		EC31BC8D2B4973320026774D /* AbhayaLibre-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-SemiBold.ttf"; sourceTree = "<group>"; };
+		EC31BC8E2B4973320026774D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EC31BC8F2B4973320026774D /* AbhayaLibre-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Bold.ttf"; sourceTree = "<group>"; };
+		EC31BC902B4973320026774D /* AbhayaLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Regular.ttf"; sourceTree = "<group>"; };
+		EC31BC912B4973320026774D /* AbhayaLibre-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Medium.ttf"; sourceTree = "<group>"; };
+		EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EC31BC992B4973820026774D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +86,12 @@
 		EC31BC342B468E8C0026774D /* Shamchiroq */ = {
 			isa = PBXGroup;
 			children = (
+				EC31BC992B4973820026774D /* Info.plist */,
 				EC31BC462B468E9A0026774D /* App */,
 				EC31BC452B468E980026774D /* Features */,
 				EC31BC442B468E960026774D /* Root */,
 				EC31BC392B468E8E0026774D /* Assets.xcassets */,
+				EC31BC8C2B4972F00026774D /* Fonts */,
 				EC31BC3B2B468E8E0026774D /* Preview Content */,
 			);
 			path = Shamchiroq;
@@ -119,7 +118,7 @@
 			children = (
 				EC31BC4C2B4694540026774D /* Home */,
 				EC31BC4E2B4694610026774D /* Onboarding */,
-				EC31BC4F2B4695110026774D /* Post */,
+				EC31BC4F2B4695110026774D /* Kitoblarim */,
 				EC31BC502B4695180026774D /* Profile */,
 				EC31BC4B2B46944B0026774D /* Search */,
 			);
@@ -163,7 +162,7 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		EC31BC4F2B4695110026774D /* Post */ = {
+		EC31BC4F2B4695110026774D /* Kitoblarim */ = {
 			isa = PBXGroup;
 			children = (
 				EC31BC852B472A4B0026774D /* Components */,
@@ -171,7 +170,7 @@
 				EC31BC832B472A490026774D /* View */,
 				EC31BC822B472A480026774D /* ViewModel */,
 			);
-			path = Post;
+			path = Kitoblarim;
 			sourceTree = "<group>";
 		};
 		EC31BC502B4695180026774D /* Profile */ = {
@@ -199,11 +198,7 @@
 				EC31BC572B4696770026774D /* TopNavigationBarView.swift */,
 				EC31BC592B46976B0026774D /* BottomNavigationItemView.swift */,
 				EC31BC5B2B4698920026774D /* BottomNavigationBar.swift */,
-				EC31BC5D2B469CE70026774D /* NavigationButton.swift */,
-				EC31BC5F2B469D450026774D /* NavigationButtons.swift */,
-				EC31BC652B46AF460026774D /* CelebrityItemView.swift */,
-				EC31BC6E2B46DDFC0026774D /* TopKitobItemView.swift */,
-				EC31BC882B472AC60026774D /* ArtcileItemView.swift */,
+				EC31BC8A2B4971330026774D /* BookItemView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -212,9 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				EC31BC552B4695C80026774D /* HomeView.swift */,
-				EC31BC632B46AF0E0026774D /* MashxurlarView.swift */,
-				EC31BC6B2B46DD0B0026774D /* TopKitoblarView.swift */,
-				EC31BC782B470F4C0026774D /* ArticlesView.swift */,
+				EC31BC6B2B46DD0B0026774D /* AsosiyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,9 +215,7 @@
 		EC31BC542B4695800026774D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EC31BC672B46AFB10026774D /* Celebrity.swift */,
 				EC31BC702B46DF990026774D /* Book.swift */,
-				EC31BC862B472A870026774D /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,7 +288,7 @@
 		EC31BC832B472A490026774D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EC31BC742B470EEC0026774D /* WriteBlogView.swift */,
+				EC31BC742B470EEC0026774D /* Kitoblarim.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +305,19 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EC31BC8C2B4972F00026774D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC8F2B4973320026774D /* AbhayaLibre-Bold.ttf */,
+				EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */,
+				EC31BC912B4973320026774D /* AbhayaLibre-Medium.ttf */,
+				EC31BC902B4973320026774D /* AbhayaLibre-Regular.ttf */,
+				EC31BC8D2B4973320026774D /* AbhayaLibre-SemiBold.ttf */,
+				EC31BC8E2B4973320026774D /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,8 +378,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC31BC972B4973330026774D /* AbhayaLibre-Medium.ttf in Resources */,
+				EC31BC962B4973330026774D /* AbhayaLibre-Regular.ttf in Resources */,
 				EC31BC3D2B468E8E0026774D /* Preview Assets.xcassets in Resources */,
+				EC31BC982B4973330026774D /* AbhayaLibre-ExtraBold.ttf in Resources */,
 				EC31BC3A2B468E8E0026774D /* Assets.xcassets in Resources */,
+				EC31BC942B4973320026774D /* OFL.txt in Resources */,
+				EC31BC952B4973330026774D /* AbhayaLibre-Bold.ttf in Resources */,
+				EC31BC932B4973320026774D /* AbhayaLibre-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,25 +397,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC31BC712B46DF990026774D /* Book.swift in Sources */,
-				EC31BC5E2B469CE70026774D /* NavigationButton.swift in Sources */,
-				EC31BC602B469D450026774D /* NavigationButtons.swift in Sources */,
 				EC31BC5C2B4698920026774D /* BottomNavigationBar.swift in Sources */,
-				EC31BC872B472A870026774D /* Article.swift in Sources */,
-				EC31BC642B46AF0E0026774D /* MashxurlarView.swift in Sources */,
 				EC31BC582B4696770026774D /* TopNavigationBarView.swift in Sources */,
-				EC31BC6F2B46DDFC0026774D /* TopKitobItemView.swift in Sources */,
-				EC31BC662B46AF460026774D /* CelebrityItemView.swift in Sources */,
-				EC31BC752B470EEC0026774D /* WriteBlogView.swift in Sources */,
-				EC31BC682B46AFB10026774D /* Celebrity.swift in Sources */,
+				EC31BC752B470EEC0026774D /* Kitoblarim.swift in Sources */,
 				EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */,
-				EC31BC892B472AC60026774D /* ArtcileItemView.swift in Sources */,
 				EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */,
 				EC31BC562B4695C80026774D /* HomeView.swift in Sources */,
 				EC31BC382B468E8C0026774D /* ContentView.swift in Sources */,
-				EC31BC792B470F4C0026774D /* ArticlesView.swift in Sources */,
 				EC31BC732B470EC10026774D /* SearchView.swift in Sources */,
-				EC31BC6C2B46DD0B0026774D /* TopKitoblarView.swift in Sources */,
+				EC31BC6C2B46DD0B0026774D /* AsosiyView.swift in Sources */,
 				EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */,
+				EC31BC8B2B4971330026774D /* BookItemView.swift in Sources */,
 				EC31BC362B468E8C0026774D /* ShamchiroqApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +545,7 @@
 				DEVELOPMENT_TEAM = U85U2K5C4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shamchiroq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -573,6 +576,7 @@
 				DEVELOPMENT_TEAM = U85U2K5C4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shamchiroq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -16,26 +16,19 @@ struct HomeView: View {
                 if navBtnState.selectedBottomTab == 1 {
                     SearchView()
                 } else if navBtnState.selectedBottomTab == 2 {
-                    WriteBlogView()
+                    Kitoblarim()
                 } else if navBtnState.selectedBottomTab == 3 {
                     ProfileView()
                 } else {
                     
                     // Top Navigation Bar
                     TopNavigationBarView()
+                        .padding(.bottom, 3)
                     
-                    // Three Navigation Buttons
-                    NavigationButtons()
                     Divider()
                     
-                    switch navBtnState.selectedTopTab {
-                    case 1:
-                        TopKitoblarView()
-                    case 2:
-                        ArticlesView()
-                    default:
-                        MashxurlarView()
-                    }
+                    AsosiyView()
+                    
                 }
             
                 Spacer()

@@ -13,7 +13,7 @@ struct BottomNavigationBar: View {
     var body: some View {
         HStack {
             Button {
-                navBtnState.boshSahifa()
+                navBtnState.asosiy()
             } label: {
                 BottomNavigationItemView(imageName: "house", title: "Asosiy")
             }
@@ -22,18 +22,18 @@ struct BottomNavigationBar: View {
             Spacer()
             
             Button {
-                navBtnState.izlang()
+                navBtnState.kitoblarim()
             } label: {
-                BottomNavigationItemView(imageName: "magnifyingglass", title: "Izlang")
+                BottomNavigationItemView(imageName: "books.vertical.fill", title: "Kitoblarim")
             }
             .buttonStyle(BottomNavigationButtonStyle(selected: navBtnState.selectedBottomTab == 1))
             
             Spacer()
             
             Button {
-                navBtnState.yozing()
+                navBtnState.izlang()
             } label: {
-                BottomNavigationItemView(imageName: "plus.circle", title: "Yozing")
+                BottomNavigationItemView(imageName: "magnifyingglass", title: "Qidiring")
             }
             .buttonStyle(BottomNavigationButtonStyle(selected: navBtnState.selectedBottomTab == 2))
             
@@ -42,7 +42,7 @@ struct BottomNavigationBar: View {
             Button {
                 navBtnState.profil()
             } label: {
-                BottomNavigationItemView(imageName: "person.circle", title: "Profil")
+                BottomNavigationItemView(imageName: "person.circle", title: "Sahifam")
             }
             .buttonStyle(BottomNavigationButtonStyle(selected: navBtnState.selectedBottomTab == 3))
         }

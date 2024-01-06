@@ -8,30 +8,17 @@
 import Foundation
 
 class NavigationButtonsState: ObservableObject {
-    @Published var selectedTopTab: Int = 0
     @Published var selectedBottomTab: Int = 0
     
-    func mashxurlar() {
-        selectedTopTab = 0
-    }
-    
-    func topkitoblar() {
-        selectedTopTab = 1
-    }
-    
-    func postlar() {
-        selectedTopTab = 2
-    }
-    
-    func boshSahifa() {
+    func asosiy() {
         selectedBottomTab = 0
     }
     
-    func izlang() {
+    func kitoblarim() {
         selectedBottomTab = 1
     }
     
-    func yozing() {
+    func izlang() {
         selectedBottomTab = 2
     }
     

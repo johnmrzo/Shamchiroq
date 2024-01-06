@@ -14,12 +14,11 @@ struct BottomNavigationItemView: View {
     var body: some View {
         VStack {
             Image(systemName: imageName)
-                .imageScale(.large)
+                .imageScale(.small)
             
             Text(title)
-                .font(.caption)
+                .font(.system(size: 12))
         }
-        .padding(8)
     }
 }
 
