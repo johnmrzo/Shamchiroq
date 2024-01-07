@@ -13,7 +13,8 @@ struct Book: Identifiable {
     let author: String
     let image: String
     var ratings: [Rating]?
-    var raviews: [Review]?
+    var reviews: [Review]?
+    let description: String
     
     var averageRating: Double {
         guard let ratings = ratings, !ratings.isEmpty else { return 0.0 }
@@ -31,10 +32,10 @@ struct Book: Identifiable {
     }
     
     mutating func addReview(newReview: Review) {
-        if raviews == nil {
-            raviews = [newReview]
+        if reviews == nil {
+            reviews = [newReview]
         } else {
-            raviews?.append(newReview)
+            reviews?.append(newReview)
         }
     }
     

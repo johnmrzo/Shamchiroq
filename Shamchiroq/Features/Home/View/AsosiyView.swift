@@ -15,11 +15,12 @@ struct AsosiyView: View {
         NavigationStack {
             ScrollView {
                 ForEach(sampleData.books, id: \.title) { book in
-                    NavigationLink(destination: BookView()) {
+                    NavigationLink(destination: BookView(bookTitle: book.title, authorName: book.author, image: book.image, averageRating: book.averageRating, numberOfRatings: book.ratings?.count ?? 0, numberOfReviews: book.reviews?.count ?? 0, bookDescription: book.description)) {
                         BookItemView(title: book.title, author: book.author, image: book.image, averageRating: book.averageRating)
                             .padding(3)
                             .padding(.leading, 20)
                     }
+                    .foregroundColor(.black)
                 }
             }
         }
