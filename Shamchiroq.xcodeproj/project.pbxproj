@@ -30,6 +30,9 @@
 		EC31BC982B4973330026774D /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC922B4973320026774D /* AbhayaLibre-ExtraBold.ttf */; };
 		EC31BC9B2B499B760026774D /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC9A2B499B760026774D /* BookView.swift */; };
 		EC31BC9D2B499BA80026774D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC9C2B499BA80026774D /* SampleData.swift */; };
+		EC31BC9F2B4A77EC0026774D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BC9E2B4A77EC0026774D /* Review.swift */; };
+		EC31BCA12B4A783C0026774D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BCA02B4A783C0026774D /* User.swift */; };
+		EC31BCA32B4A7C890026774D /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BCA22B4A7C890026774D /* Rating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		EC31BC992B4973820026774D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EC31BC9A2B499B760026774D /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		EC31BC9C2B499BA80026774D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		EC31BC9E2B4A77EC0026774D /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		EC31BCA02B4A783C0026774D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC31BCA22B4A7C890026774D /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +228,9 @@
 			isa = PBXGroup;
 			children = (
 				EC31BC702B46DF990026774D /* Book.swift */,
+				EC31BC9E2B4A77EC0026774D /* Review.swift */,
+				EC31BCA02B4A783C0026774D /* User.swift */,
+				EC31BCA22B4A7C890026774D /* Rating.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,9 +417,12 @@
 				EC31BC752B470EEC0026774D /* Kitoblarim.swift in Sources */,
 				EC31BC772B470EFB0026774D /* ProfileView.swift in Sources */,
 				EC31BC9B2B499B760026774D /* BookView.swift in Sources */,
+				EC31BCA32B4A7C890026774D /* Rating.swift in Sources */,
 				EC31BC6A2B46B2280026774D /* NavigationButtonsState.swift in Sources */,
+				EC31BCA12B4A783C0026774D /* User.swift in Sources */,
 				EC31BC562B4695C80026774D /* MainView.swift in Sources */,
 				EC31BC382B468E8C0026774D /* ContentView.swift in Sources */,
+				EC31BC9F2B4A77EC0026774D /* Review.swift in Sources */,
 				EC31BC732B470EC10026774D /* SearchView.swift in Sources */,
 				EC31BC6C2B46DD0B0026774D /* AsosiyView.swift in Sources */,
 				EC31BC5A2B46976B0026774D /* BottomNavigationItemView.swift in Sources */,

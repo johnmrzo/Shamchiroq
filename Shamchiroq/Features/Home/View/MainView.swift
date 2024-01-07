@@ -22,10 +22,12 @@ struct MainView: View {
                 } else {
                     
                     // Top Navigation Bar
-                    TopNavigationBarView()
-                        .padding(.bottom, 3)
-                    
-                    Divider()
+                    if !navBtnState.noTopBar {
+                        TopNavigationBarView()
+                            .padding(.bottom, 3)
+                        
+                        Divider()
+                    }
                     
                     AsosiyView()
                     

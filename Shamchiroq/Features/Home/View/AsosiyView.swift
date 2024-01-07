@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct AsosiyView: View {
+    @EnvironmentObject var navBtnState: NavigationButtonsState
     @EnvironmentObject var sampleData: SampleData
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 ForEach(sampleData.books, id: \.title) { book in
                     NavigationLink(destination: BookView()) {
@@ -19,7 +20,6 @@ struct AsosiyView: View {
                             .padding(3)
                             .padding(.leading, 20)
                     }
-                    //Divider()
                 }
             }
         }

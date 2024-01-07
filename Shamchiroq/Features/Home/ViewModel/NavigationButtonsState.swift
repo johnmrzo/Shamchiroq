@@ -9,6 +9,7 @@ import Foundation
 
 class NavigationButtonsState: ObservableObject {
     @Published var selectedBottomTab: Int = 0
+    @Published var noTopBar: Bool = false
     
     func asosiy() {
         selectedBottomTab = 0
