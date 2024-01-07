@@ -11,5 +11,6 @@ struct User {
     let id = UUID()
     let firstName: String
     let lastName: String
+    let username: String
     let email: String
 }

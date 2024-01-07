@@ -16,7 +16,7 @@ struct AsosiyView: View {
             ScrollView {
                 ForEach(sampleData.books, id: \.title) { book in
                     NavigationLink(destination: BookView()) {
-                        BookItemView(title: book.title, author: book.author, image: book.image ?? "no-book-image", rating: book.rating ?? 0)
+                        BookItemView(title: book.title, author: book.author, image: book.image, averageRating: book.averageRating)
                             .padding(3)
                             .padding(.leading, 20)
                     }

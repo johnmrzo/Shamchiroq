@@ -13,7 +13,7 @@ struct ShamchiroqApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(NavigationButtonsState())
-                .environmentObject(SampleData())
+                .environmentObject(SampleData.shared)
         }
     }
 }

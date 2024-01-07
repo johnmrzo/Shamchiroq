@@ -11,7 +11,7 @@ struct BookItemView: View {
     var title: String
     var author: String
     var image: String
-    var rating: Int
+    var averageRating: Double
     
     var body: some View {
         HStack {
@@ -66,7 +66,7 @@ struct BookItemView: View {
                         .foregroundColor(.gray)
                     
                     ForEach(0..<5) { index in
-                        Image(systemName: index < rating ? "star.fill" : "star")
+                        Image(systemName: index < Int(averageRating.rounded(.toNearestOrAwayFromZero)) ? "star.fill" : "star")
                             .foregroundColor(.yellow)
                             .font(.system(size: 10))
                     }
@@ -83,5 +83,5 @@ struct BookItemView: View {
 }
 
 #Preview {
-    BookItemView(title: "The Great Gatsby", author: "F. Scott Fitzgerald", image: "The-Great-Gatsby", rating: 4)
+    BookItemView(title: "The Great Gatsby", author: "F. Scott Fitzgerald", image: "The-Great-Gatsby", averageRating: 3.4)
 }
