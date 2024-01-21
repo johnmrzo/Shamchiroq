@@ -9,6 +9,6 @@ import Foundation
 
 struct Rating {
     let id = UUID()
-    let numOfStars: Int
     let user: User
+    let numOfStars: Int
 }

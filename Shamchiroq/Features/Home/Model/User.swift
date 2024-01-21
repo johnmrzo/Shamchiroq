@@ -13,4 +13,8 @@ struct User {
     let lastName: String
     let username: String
     let email: String
+    let image: String
+    var read: [Book] = []
+    var reading: [Book] = []
+    var wantToRead: [Book] = []
 }

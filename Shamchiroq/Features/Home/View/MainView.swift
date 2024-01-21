@@ -14,20 +14,19 @@ struct MainView: View {
         NavigationView {
             VStack {
                 if navBtnState.selectedBottomTab == 1 {
-                    SearchView()
-                } else if navBtnState.selectedBottomTab == 2 {
                     Kitoblarim()
+                } else if navBtnState.selectedBottomTab == 2 {
+                    SearchView()
                 } else if navBtnState.selectedBottomTab == 3 {
                     ProfileView()
                 } else {
                     
                     // Top Navigation Bar
-                    if !navBtnState.noTopBar {
-                        TopNavigationBarView()
-                            .padding(.bottom, 3)
-                        
-                        Divider()
-                    }
+                    TopNavigationBarView()
+                        .padding(.bottom, 3)
+                    
+                    Divider()
+                    
                     
                     AsosiyView()
                     

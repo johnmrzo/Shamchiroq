@@ -9,6 +9,15 @@ import Foundation
 
 struct Review {
     let id = UUID()
-    let review: String
     let user: User
+    let body: String
+    var likes: Int = 0
+    
+    mutating func liked() {
+        likes += 1
+    }
+    
+    mutating func unliked() {
+        likes -= 1
+    }
 }

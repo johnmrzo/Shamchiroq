@@ -12,8 +12,8 @@ struct BookView: View {
     let authorName: String
     let image: String
     let averageRating: Double
-    let numberOfRatings: Int
-    let numberOfReviews: Int
+    let ratings: [Rating]
+    let reviews: [Review]
     let bookDescription: String
     let maxDescriptionLength: Int = 300
     
@@ -62,18 +62,18 @@ struct BookView: View {
                 
                 // Number of ratings and reviews
                 HStack {
-                    Text("\(numberOfRatings) Ratings")
+                    Text("\(ratings.count) Ratings")
                         .foregroundColor(.gray)
                     
                     Text(" | ")
                     
-                    Text("\(numberOfRatings) Reviews")
+                    Text("\(reviews.count) Reviews")
                         .foregroundColor(.gray)
                 }
                 
                 // Saqlash button
                 Button(action: {
-                    // Action to perform when the button is tapped
+                    // TODO: Action to perform when the button is tapped
                     // Add your code here
                 }) {
                     HStack {
@@ -118,7 +118,7 @@ struct BookView: View {
                 // Community Ratings
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {
-                        Text("\(numberOfReviews) Bildirilgan fikrlar")
+                        Text("\(reviews.count) Bildirilgan fikrlar")
                             .font(.headline)
                             .bold()
                         
@@ -138,7 +138,7 @@ struct BookView: View {
                             .font(.subheadline)
                             .padding(.leading, 4)
                         
-                        Text("(\(numberOfRatings) baholashlar)")
+                        Text("(\(ratings.count) baholashlar)")
                             .foregroundColor(.gray)
                             .font(.subheadline)
                     }
@@ -155,7 +155,7 @@ struct BookView: View {
                                 
                                 // Calculate the percentage of reviews for the current star
                                 let percentage = star <= Int(averageRating.rounded(.toNearestOrAwayFromZero)) ?
-                                Double(numberOfReviews) / Double(numberOfRatings) * 100 : 0
+                                Double(reviews.count) / Double(ratings.count) * 100 : 0
                                 
                                 // Draw progress line
                                 Rectangle()
@@ -171,6 +171,8 @@ struct BookView: View {
                 Divider()
                 
                 // Comments, Reviews
+                // Reviews Loop
+
                 
                 
                 Spacer()
@@ -180,6 +182,6 @@ struct BookView: View {
     }
 }
 
-#Preview {
-    BookView(bookTitle: "The Fault in Our Stars", authorName: "John Green", image: "no-book-image", averageRating: 3.4, numberOfRatings: 143, numberOfReviews: 122, bookDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut consequat semper viverra. Feugiat in fermentum posuere urna nec tincidunt praesent. Blandit libero volutpat sed cras. Aliquam etiam erat velit scelerisque in. Volutpat sed cras ornare arcu dui vivamus arcu. Morbi tincidunt ornare massa eget egestas purus viverra. Leo integer malesuada nunc vel risus commodo viverra maecenas. Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Nam libero justo laoreet sit amet cursus. Lacinia at quis risus sed vulputate odio. Ut aliquam purus sit amet luctus venenatis. Volutpat diam ut venenatis tellus in metus vulputate eu. Massa placerat duis ultricies lacus. Urna neque viverra justo nec ultrices dui. Eu non diam phasellus vestibulum lorem sed. Pharetra convallis posuere morbi leo urna molestie at. Facilisis volutpat est velit egestas dui id ornare. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt.")
-}
+//#Preview {
+//    BookView(bookTitle: "The Fault in Our Stars", authorName: "John Green", image: "no-book-image", averageRating: 3.4, ratings: 143, reviews: 122, bookDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut consequat semper viverra. Feugiat in fermentum posuere urna nec tincidunt praesent. Blandit libero volutpat sed cras. Aliquam etiam erat velit scelerisque in. Volutpat sed cras ornare arcu dui vivamus arcu. Morbi tincidunt ornare massa eget egestas purus viverra. Leo integer malesuada nunc vel risus commodo viverra maecenas. Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Nam libero justo laoreet sit amet cursus. Lacinia at quis risus sed vulputate odio. Ut aliquam purus sit amet luctus venenatis. Volutpat diam ut venenatis tellus in metus vulputate eu. Massa placerat duis ultricies lacus. Urna neque viverra justo nec ultrices dui. Eu non diam phasellus vestibulum lorem sed. Pharetra convallis posuere morbi leo urna molestie at. Facilisis volutpat est velit egestas dui id ornare. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt.")
+//}

@@ -61,14 +61,14 @@ struct BookItemView: View {
                 
                 // Ratings
                 HStack {
-                    Text("Rayting:")
-                        .font(.system(size: 12))
-                        .foregroundColor(.gray)
+//                    Text("Rayting:")
+//                        .font(.system(size: 12))
+//                        .foregroundColor(.gray)
                     
                     ForEach(0..<5) { index in
                         Image(systemName: index < Int(averageRating.rounded(.toNearestOrAwayFromZero)) ? "star.fill" : "star")
                             .foregroundColor(.yellow)
-                            .font(.system(size: 10))
+                            .font(.system(size: 8))
                     }
                 }
                 
